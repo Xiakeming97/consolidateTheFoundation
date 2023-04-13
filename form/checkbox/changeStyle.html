@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>改变多选框的样式</title>
-</head>
-<style>
-
-</style>
-<body>
-  <div>
-    <input type="checkbox" />
-    多选
-  </div>
-</body>
-<script>
-
-</script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>改变多选框的样式</title>
+  </head>
+  <style></style>
+  <body>
+    <div>
+      <input
+        type="checkbox"
+        name="checkbox"
+        onchange="change()"
+      />
+      <label for="checkbox">多选</label>
+    </div>
+  </body>
+  <script>
+    function change(e) {
+      console.log(e);
+    }
+  </script>
 </html>
